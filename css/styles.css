@@ -91,76 +91,17 @@ a {
     margin: 20px;
 }
 
-.images,
-#image-antedeluvian,
-#image-antedeluvian-bat,
-#image-cathedral,
-#image-clothing,
-#image-art,
-#image-50s,
-#image-face,
-#image-grotesco,
-#image-maso {
-    background-position: center;
-    /* Não aprendemos em aula o seguinte código, mas queria que as imagens
-    ficassem com as proporções corretas, independentes do widht e height */
-    background-repeat: no-repeat;
-    background-size: contain;
+.images
+ {
+    
     margin: 15px;
     padding: 10px;
-    width: 25%;
-    height: 500px;
-    display: inline-block;
+    width: 28%;
+    /* Não aprendemos em aula o seguinte código, mas queria que as imagens
+    ficassem com as proporções corretas, independentes do widht*/
+    height: auto;
     box-sizing: border-box;
     
-}
-
-#image-antedeluvian{
-    background-image: url("../img/Tzimisce_antedeluvian.webp");
-}
-
-#image-antedeluvian-bat{
-    background-image: url("../img/Tzimisce_antedeluvian_morcego.webp");
-}
-
-#image-cathedral{
-    background-image: url("../img/Cathedral_of_Flesh.webp");
-}
-
-#image-clothing{
-    background-image: url("../img/clothing_tzimisce.png");
-}
-
-#image-art{
-    background-image: url("../img/tzi_art.jpg");
-}
-
-#image-50s{
-    background-image: url("../img/tzi_50s.jpg");
-}
-
-#image-face{
-    background-image: url("../img/Tzi_face.jpg");
-}
-
-#image-grotesco{
-    background-image: url("../img/tzi_grotesco.jpg");
-}
-
-#image-maso{
-    background-image: url("../img/tzi-maso.jpg");
-}
-
-#image-face{
-    background-image: url("../img/Dracul.jpg");
-}
-
-#image-grotesco{
-    background-image: url("../img/tzi-dracula.jpg");
-}
-
-#image-maso{
-    background-image: url("../img/tzi-gesu.jpg");
 }
 
 #footer {
