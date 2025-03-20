@@ -1,0 +1,171 @@
+
+a {
+    text-decoration: none;
+  }
+  
+  
+.fixed {
+    height: 70px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(216, 16, 16);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+#header {
+    position: relative;
+    color: black;
+    font-family: Garamond, serif;
+    left: 90px;
+    bottom: 5px;
+    font-size: 40px;
+}
+
+.tzimsce-logo {
+    position: absolute;
+    left: 30px;
+    top: 5%;
+    width: 55px;
+    height: 56px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/LogoClanTzimisce.webp");
+
+}
+
+.links {
+    background-color: black;
+    color: rgb(216, 16, 16);
+    display: inline-block;
+    padding:6px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+
+.links-position {
+    position: absolute;
+    right: 30px;
+    top: 25%;
+    z-index: 1;
+    
+
+}
+
+.subtitle,
+#first-subtitle,
+#subtitle-image {
+    color: #000000d0;
+    text-align: left;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 1px;
+    font-size: 22px;
+}
+
+#subtitle-image {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#first-subtitle {
+    margin-top: 110px;
+}
+.paragraph {
+    color: #000000d0;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    width: 80%;
+    text-align: justify;
+
+}
+
+.image-block{
+    text-align: center;
+    margin: 20px;
+}
+
+.images,
+#image-antedeluvian,
+#image-antedeluvian-bat,
+#image-cathedral,
+#image-clothing,
+#image-art,
+#image-50s,
+#image-face,
+#image-grotesco,
+#image-maso {
+    background-position: center;
+    /* Não aprendemos em aula o seguinte código, mas queria que as imagens
+    ficassem com as proporções corretas, independentes do widht e height */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 15px;
+    padding: 10px;
+    width: 25%;
+    height: 500px;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+
+#image-antedeluvian{
+    background-image: url("../img/Tzimisce_antedeluvian.webp");
+}
+
+#image-antedeluvian-bat{
+    background-image: url("../img/Tzimisce_antedeluvian_morcego.webp");
+}
+
+#image-cathedral{
+    background-image: url("../img/Cathedral_of_Flesh.webp");
+}
+
+#image-clothing{
+    background-image: url("../img/clothing_tzimisce.png");
+}
+
+#image-art{
+    background-image: url("../img/tzi_art.jpg");
+}
+
+#image-50s{
+    background-image: url("../img/tzi_50s.jpg");
+}
+
+#image-face{
+    background-image: url("../img/Tzi_face.jpg");
+}
+
+#image-grotesco{
+    background-image: url("../img/tzi_grotesco.jpg");
+}
+
+#image-maso{
+    background-image: url("../img/tzi-maso.jpg");
+}
+
+#image-face{
+    background-image: url("../img/Dracul.jpg");
+}
+
+#image-grotesco{
+    background-image: url("../img/tzi-dracula.jpg");
+}
+
+#image-maso{
+    background-image: url("../img/tzi-gesu.jpg");
+}
+
+#footer {
+    font-size: 8px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
